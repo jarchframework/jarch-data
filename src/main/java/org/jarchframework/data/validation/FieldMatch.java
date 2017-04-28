@@ -14,7 +14,7 @@ import javax.validation.Payload;
 @Constraint(validatedBy = FieldMatchValidator.class)
 @Documented
 public @interface FieldMatch {
-	String message() default "{org.lunaframework.core.validation.fieldmatch}";
+	String message() default "{org.jarchframework.data.validation.fieldmatch}";
 
 	Class<?>[] groups() default {};
 
